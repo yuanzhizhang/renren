@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.post_repay.dao.PostReplyDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.post_repay.entity.PostReplyEntity" id="postReplyMap">
+        <result property="cid" column="cid"/>
+        <result property="replytitle" column="replytitle"/>
+        <result property="replycontent" column="replycontent"/>
+        <result property="replyexpression" column="replyexpression"/>
+        <result property="replytime" column="replytime"/>
+        <result property="replyerid" column="replyerid"/>
+        <result property="whichPostIdToReply" column="which_post_id_to_reply"/>
+    </resultMap>
+
+
+</mapper>
